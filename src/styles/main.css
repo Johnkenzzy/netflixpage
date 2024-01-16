@@ -1,0 +1,94 @@
+
+.main-page {
+    font-family: sans-serif;
+    /* background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/f7d146cf-e8ed-413b-9a14-bbfcc2c1625c/NG-en-20231120-popsignuptwoweeks-perspective_alpha_website_small.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(22, 22, 22, 0.736), rgba(44, 41, 41, 0.77)), url('https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/f7d146cf-e8ed-413b-9a14-bbfcc2c1625c/NG-en-20231120-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    filter: brightness(-1.5);
+    border-bottom: 10px solid rgb(55, 53, 53);
+}
+
+
+.page-header {
+    height: fit-content;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.header-props {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: red;
+}
+
+.logo-frame {
+    font-size: 30px;
+    margin-right: auto;
+}
+
+#logo {
+    font-weight: 1000;
+    font-family: Serif, Georgia, 'Times New Roman', Times;
+
+}
+
+.sign-in {
+    display: flex;
+    margin-left: auto;
+}
+
+#signIn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder; 
+}
+
+.main-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+}
+
+.email-to-start {
+    width: fit-content;
+}
+
+input {
+    width: 20rem;
+    padding: 15px;
+    margin-right: 4px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.117);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    width: fit-content;
+    padding: 15px;
+    margin-left: 4px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 5px;
+    border: 1px solid red;
+}

@@ -1,0 +1,24 @@
+.accordion, .fqa-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-item {
+    width: 100%;
+    margin: 10px;
+    background-color: rgba(48, 45, 45, 0.817);
+}
+
+.accordion-header {
+    background-color: rgba(48, 45, 45, 0.817);
+}
+
+.collapse {
+    background-color: rgba(48, 45, 45, 0.817);
+}

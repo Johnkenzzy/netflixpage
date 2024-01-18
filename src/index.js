@@ -6,6 +6,7 @@ import Tv from './sections/Tv.js';
 import Download from './sections/download.js';
 import Everywhere from './sections/everywhere.js';
 import Kids from './sections/kids.js';
+import Fqa from './sections/fqa.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Download />
     <Everywhere />
     <Kids />
+    <Fqa />
   </React.StrictMode>
 );
 

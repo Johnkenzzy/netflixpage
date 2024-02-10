@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './sections/main.js';
+import Home from './sections/home.js';
 import Tv from './sections/Tv.js';
 import Download from './sections/download.js';
 import Everywhere from './sections/everywhere.js';
@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Main />
+    <Home />
     <Tv />
     <Download />
     <Everywhere />

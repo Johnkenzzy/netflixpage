@@ -3,7 +3,7 @@ import kids from '../assets/kids.png';
 
 function Kids () {
     return (
-        <div className='section'>
+        <div className='section kids-section'>
             <div className='img-frame'>
                 <img src={kids} alt='anime' />
             </div>

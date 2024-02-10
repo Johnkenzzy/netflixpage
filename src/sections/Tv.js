@@ -7,7 +7,7 @@ function Tv() {
             <div className='section-text'>
                 <h1>Enjoy on your TV</h1>
                 <div className='section-paragraph'>
-                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blur-ray players, and more.</p>  
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>  
                 </div>
             </div>
             <div className='img-frame'>

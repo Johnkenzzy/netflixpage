@@ -1,8 +1,10 @@
-import '../styles/main.css';
+import '../styles/home.css';
+import home from '../assets/home.jpg';
 
-function Main() {
+
+function Home() {
   return (
-    <div className="main-page">
+    <div className="main-page" style={{backgroundImage: {home}}}>
       <header className="page-header">
         <div className="header-props">
           <div className='logo-frame'>
@@ -21,9 +23,12 @@ function Main() {
         </div>
         <div className='email-to-start'>
           <input type='text' name='email'placeholder='Email address'/>
-          <button id='get-started'>
-            <span id='get-started-text'>
-              Get Started<i className="fa-solid fa-angle-up fa-rotate-90"></i>
+          <button className='get-started'>
+            <span className='get-started-text'>
+              Get Started
+            </span>
+            <span className='get-started-icon'>
+              <i className="fa-solid fa-angle-up fa-rotate-90"></i>
             </span>
           </button>
         </div>
@@ -32,4 +37,5 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;
+

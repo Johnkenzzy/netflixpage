@@ -3,7 +3,7 @@ import mobile from '../assets/mobile.jpg'
 
 function Download () {
     return (
-        <div className='section section-section'>
+        <div className='section download-section'>
             <div className='img-frame'>
                 <img src={mobile} alt='mobile phone' />
             </div>

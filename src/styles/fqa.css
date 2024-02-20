@@ -1,24 +1,40 @@
-.accordion, .fqa-section {
+
+.accordion {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.accordion-item, .accordion-content {
+    color: white;
+    padding: 20px;
+    background-color: rgba(64, 64, 65, 0.741);
 }
 
 .accordion-item {
-    width: 100%;
-    margin: 10px;
-    background-color: rgba(48, 45, 45, 0.817);
+    display: flex;
+    height: 90px;
+    border: 2px solid rgba(64, 64, 65, 0.741);
+    margin-bottom: 1px;
+}
+.accordion-item:hover {
+    background-color: rgba(142, 142, 146, 0.741);
+    transition: 2s;
 }
 
-.accordion-header {
-    background-color: rgba(48, 45, 45, 0.817);
+.accordion-title {
+    margin: auto auto auto 0;
+    font-size: 20px;
 }
 
-.collapse {
-    background-color: rgba(48, 45, 45, 0.817);
+.icon {
+   margin: auto 0 auto auto;
 }
+
+
+.accordion-content {
+    text-align: justify;
+    display: none;
+}
+

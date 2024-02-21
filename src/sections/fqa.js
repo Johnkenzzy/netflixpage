@@ -10,9 +10,11 @@ function Fqa () {
   ];
 
   return (
-    <div className="fqa">
-      <h2>Frequently Asked Questions</h2>
-      <Accordion items={items} />
+    <div className="fqa-section">
+      <h1>Frequently Asked Questions</h1>
+      <div className='accordion'>
+        <Accordion items={items} />
+      </div>
     </div>
   );
 }

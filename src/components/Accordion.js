@@ -9,19 +9,25 @@ function Accordion({ items }) {
 
   return (
     <div>
-      {items.map((item, index) => (
-        <div key={index} className="accordion-item">
-          <div
-            className="accordion-header"
-            onClick={() => handleClick(index)}
+        {items.map((item, index) => (
+          <div 
+            key={index} 
+            className="accordion-item"
           >
-            {item.header}
+            <div 
+              className="accordion-header"
+              onClick={() => handleClick(index)}
+            >
+              {item.header}
+            </div> 
+      
+            <div className='accordion-content-container'>
+              {openIndex === index && (
+                  <div className="accordion-content">{item.content}</div>
+              )}
+            </div>
           </div>
-          {openIndex === index && (
-            <div className="accordion-content">{item.content}</div>
-          )}
-        </div>
-      ))}
+        ))}     
     </div>
   );
 }

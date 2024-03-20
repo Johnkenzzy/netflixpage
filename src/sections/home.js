@@ -1,5 +1,6 @@
 import '../styles/home.css';
 import home from '../assets/home.jpg';
+import 'animate.css';
 
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
       </header>
       <div className='main-page-content'>
         <div className='main-page-text'>
-          <h1>Unlimited movies, TV shows, and more</h1>
+          <h1 className='animate__bounce'>Unlimited movies, TV shows, and more</h1>
           <p>Watch anywhere. Cancel anytime.</p>
           <p>Ready to watch? Enter your email to create or start your membership.</p>
         </div>
